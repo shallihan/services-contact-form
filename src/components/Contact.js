@@ -56,6 +56,7 @@ const Contact = () => {
             <input onChange={handleEmailInput} onClick={handleEmailClick} type="email" value={inputEmail} required/>
             <motion.div className="line"></motion.div>
           </div>
+          <p>.</p>
         </div>
         <div className="terms-conditions">
         <input type="checkbox" id="agree" name="agree" required/>

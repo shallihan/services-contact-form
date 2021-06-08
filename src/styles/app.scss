@@ -14,8 +14,8 @@ body {
 }
 
 .svg {
-  width: 45rem;
-  height: 45rem;
+  width: 1000px;
+  height: 1000px;
   position: absolute;
   object-fit: contain;
 }
@@ -153,6 +153,7 @@ select {
   background: none;
   border: none;
   outline: none;
+  padding: 0 2rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
@@ -211,6 +212,7 @@ button:hover {
   width: 100%;
   position: fixed;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 8rem;
