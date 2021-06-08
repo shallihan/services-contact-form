@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -20,7 +22,10 @@ const Contact = () => {
           <input type="radio" value="accept" />
           <p>I hereby accept all terms and conditions</p>
         </div>
-        <button type="submit">Send Enquiry</button>
+        <button type="submit">
+          Send Enquiry
+          <FontAwesomeIcon icon={faArrowRight} />
+        </button>
       </form>
     </div>
   );
