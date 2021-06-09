@@ -1,0 +1,81 @@
+.container {
+  background: transparent;
+  padding: 8rem;
+  width: 100%;
+  .form-section {
+    display: flex;
+    align-items: center;
+  }
+  .form-input {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .terms-conditions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .check {
+    padding-left: 0.25rem;
+  }
+  .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    color: #faf6f3;
+    border-radius: 5px;
+  }
+  .agreement-statement {
+    padding-left: 2.5rem;
+  }
+  input:checked ~ .checkbox {
+    background-color: #000;
+  }
+  .checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .input:checked ~ .checkbox:after {
+    display: block;
+    color: #faf6f3;
+  }
+  .submit-enquiry {
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+  }
+  .line {
+    background: rgb(47, 47, 47);
+    height: 0.2rem;
+    width: 100%;
+  }
+  .arrow {
+    margin-left: 1rem;
+  }
+}

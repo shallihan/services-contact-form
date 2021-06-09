@@ -1,0 +1,34 @@
+.person {
+  width: 100%;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  .team-member-hiba {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+  }
+  .team-member-profile {
+    display: flex;
+    align-items: center;
+  }
+  .team-member-description {
+    margin: 0 2rem;
+  }
+  .hiring {
+    height: 100px;
+    padding: 2rem;
+    background: #f7d5a4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hiring-contact {
+    color: #000;
+  }
+}
+
